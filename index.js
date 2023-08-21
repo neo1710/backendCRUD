@@ -12,6 +12,7 @@ app.use("/users",userRouter);
 app.use('/posts',postRouter); 
 
 
+
 app.get('/',(req,res)=>{
    res.send({msg:"homepage"}); 
 })
